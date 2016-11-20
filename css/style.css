@@ -230,10 +230,13 @@ input::-webkit-input-placeholder
 	background-position: 190px 0px;
 }
 
+.know-more-btn {
+	text-align: center;
+	font-size: 16px;
+}
+	
 .know-more-btn a {
-	position: absolute;
-	left: 19px;
-	bottom: -30px;
+	display: block;
 	width: 226px;
 	height: 60px;
 	background-color: #fff;
@@ -247,6 +250,12 @@ input::-webkit-input-placeholder
 
 .know-more-btn a:hover {
 	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.working-process .know-more-btn {
+	position: absolute;
+	left: 19px;
+	bottom: -30px;
 }
 
 .featured-works {
@@ -277,4 +286,8 @@ input::-webkit-input-placeholder
 section.services-provide {
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+
+.service-provide-content {
+	padding-top: 100px;
 }
